@@ -22,7 +22,6 @@ var perimetroTriangulo = function(r) {
     return 2 * 3, 1416 * r
 }
 
-
 function calcularAreaCuadrado() {
     const input = document.getElementById("datoCuadrado");
     const valor = input.value;
@@ -33,12 +32,20 @@ function calcularAreaCuadrado() {
 
 }
 
-
 function calcularPerimetroCuadrado() {
     const input = document.getElementById("datoCuadrado");
     const valor = input.value;
 
-    const result = permitro_cuadrado(valor);
+    const result = areaCuadrado(valor);
+    alert(result)
+
+
+}
+
+function calcularAreaCirculo() {
+    const input = document.getElementById("datoCirculo");
+    const valor = input.value;
+    const result = areaCirculo(valor);
     alert(result)
 
 
