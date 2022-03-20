@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bulma-divider.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        ;
+        nav.navbar {
+            height: 6rem !important;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- START NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    <img src="/IMAGES/Platzi.jpg" alt="Logo">
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+          <span></span>
+                <span></span>
+                <span></span>
+                </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <div class=" navbar-item">
+                        <div class="control has-icons-left">
+                            <input class="input is-rounded" type="email" placeholder="Search">
+                            <span class="icon is-left">
+                <i class="fa fa-search"></i>
+              </span>
+                        </div>
+                    </div>
+                    <a class="navbar-item is-active is-size-5 has-text-weight-semibold" , href="/HTML/index.html">
+            Home
+          </a>
+                    <a class="navbar-item is-size-5 has-text-weight-semibold" , href="/HTML/figuras.html">
+            Calculo Figuras
+          </a>
+                    <a class="navbar-item is-size-5 has-text-weight-semibold">
+            Otros..
+          </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+
+
+    <section class="hero is-fullheight is-default is-bold">
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-4by3">
+                            <img src="/IMAGES/imagen_cuadrado.jpg" alt="Description">
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <form class="box">
+                            <h2 class="label"> Cuadrado </h2>
+                            <div class="field">
+                                <label class="label">Digite el valor de la base del cuadrado</label>
+                                <div class="control">
+                                    <input id="datoCuadrado" , type="number">
+                                </div>
+                            </div>
+                            <button class="button is-primary" , onclick="calcularAreaCuadrado()">Area</button>
+                            <button class="button is-primary" , onclick="calcularPerimetroTriangulo()">Perimetro</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-4by3">
+                            <img src="/IMAGES/imagen_triangulo.png" alt="Description">
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <form class="box">
+                            <h2 class="label"> Cuadrado </h2>
+                            <div class="field">
+                                <label class="label">Digite el valor de la base del cuadrado</label>
+                                <div class="control">
+                                    <input id="datoCuadrado" , type="number">
+                                </div>
+                            </div>
+                            <button class="button is-primary" , onclick="calcularAreaCuadrado()">Area</button>
+                            <button class="button is-primary" , onclick="calcularPerimetroTriangulo()">Perimetro</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-vcentered">
+                    <div class="column is-5">
+                        <figure class="image is-4by3">
+                            <img src="/IMAGES/imagen_circulo.png" alt="Description">
+                        </figure>
+                    </div>
+                    <div class="column is-6 is-offset-1">
+                        <form class="box">
+                            <h1 class="label">CIRCULO</h1>
+                            <div class="field">
+                                <label class="label">Radio Circulo</label>
+                                <div class="control">
+                                    <input id="datoTriangulo" , type="number">
+                                </div>
+                            </div>
+
+                            <button class="button is-primary">Calcular</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <script src="../js/bulma.js"></script>
+
+
+
+
+
+
+
+
+
+    <script src="/Script.js"></script>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            <strong>Autor</strong> by <a>Juan Ruiz</a>
+
+        </p>
+    </div>
+</footer>
+
+</html>
